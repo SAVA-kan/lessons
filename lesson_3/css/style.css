@@ -1,0 +1,7 @@
+/* скидання стилів */
+@import url("reset.css");
+
+.content {
+    max-width: 1144px;
+    margin: 0 auto;
+}

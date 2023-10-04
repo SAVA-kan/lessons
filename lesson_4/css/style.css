@@ -1,0 +1,122 @@
+/* скидання стилів */
+@import url("reset.css");
+
+.content {
+    max-width: 1144px;
+    margin: 0 auto;
+}
+
+*{
+    /* color: blue; */
+}
+
+p{
+    /* color: red; */
+}
+
+a{
+    /* color:blueviolet; */
+}
+
+li{
+    /* color: brown; */
+}
+
+.text-description{
+    /* color: chartreuse; */
+}
+
+.list {
+    /* color: cornflowerblue; */
+}
+
+.text {
+    /* color: darkgreen; */
+}
+
+#sea-of-azov {
+    /* color: red; */
+}
+#black-sea{
+    /* color: red; */
+}
+#adriatic-sea{
+    /* color: red; */
+}
+
+p.lesson{
+    /* color: darkblue; */
+}
+
+.text_title.text{
+/* color: darkmagenta; */
+}
+
+p,
+li,
+.lesson,
+.text{
+    /* color: deeppink; */
+}
+
+.text-description a {
+    /* color: green; */
+}
+
+.lesson .yellow-text {
+    /* color: yellow; */
+}
+
+.lesson * {
+/* color: red; */
+}
+
+.lesson > p {
+    /* color: blue; */
+}
+
+.lesson ~ p {
+    /* color: darkorange; */
+}
+
+.lesson {
+    /* color: darkgoldenrod; */
+}
+
+/* ПРІОРИТЕТ СЕЛЕКТОРІВ  */
+
+#some-id{
+    color: white;
+}
+
+P {
+    /* color: red; */
+}
+
+p{
+    /* color: green; */
+}
+
+p.some-class {
+    color: orange;  
+}
+
+.some-class{
+    color: brown;
+}
+
+* {
+    color: blue !important;
+}
+
+p{
+    color: greenyellow;
+}
+
+.title_container{
+    color: darkgray;
+}
+
+[class*="_container"]{
+    color: pink;
+}

@@ -1,0 +1,99 @@
+/* Підключенняя вручну */
+/* @import url("fonts.css"); */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:regular,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:regular,600,700&display=swap');
+
+/* скидання стилів */
+@import url("reset.css");
+
+body {
+    background-color: rgba(39, 88, 19, 0.212);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    color: #7D7D7D;
+    text-align: justify;
+}
+
+.content {
+    background-color: #ffff;
+    max-width: 1244px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+a{
+    color: #ff3c00;
+}
+h1{
+   font-size: 40px;
+   text-align: center;
+   font-family: cursive;
+   font-weight: 700;
+   text-decoration: underline;
+   text-shadow: 5px 5px 5px #a9b448,
+                -3px -3px 6px #001aff;
+    letter-spacing: 3px;
+}
+h2{
+    font-size: 25px;
+    font-family: "Popins", sans-serif;
+    color: #fc5000;
+    font-weight: 600;
+    text-shadow: -3px -2px 7px #5c5756;
+    text-decoration: underline;
+    text-align: center;
+    letter-spacing: 5px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+p{
+    line-height: 1.25;
+    color: #008000;
+}
+.info_list{
+    font-style: oblique;
+    color: #9548b4;
+    line-height: 126.187%; /* 26.314px */
+    margin-left: 20px;
+}
+
+.business_title{
+    color: #37393F;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%; /*38.1px */
+}
+.business-text{
+    color: #7D7D7D;
+}
+.business_sub-title{
+    font-family: "Poppins";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 127%;/* 25.4px */
+    color: #6B77E5;
+}
+
+.project_title {
+    color: #37393F;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 127%; /* 50.8px */
+}
+
+.project_text {
+    color: #7D7D7D;
+}
+
+.project_list {
+    color: #7D7D7D;
+    line-height: 146.187%; /* 26.314px */
+    margin-left: 20px;
+}

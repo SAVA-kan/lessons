@@ -2,8 +2,8 @@
 /* @import url("fonts.css"); */
 
 /* Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Inter:regular,500,600,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:regular,600,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,600,700&display=swap");
 
 /* скидання стилів */
 @import url("reset.css");
@@ -54,17 +54,16 @@ p{
     line-height: 1.25;
     color: #008000;
 }
-.info_list{
+.info-list{
     font-style: oblique;
     color: #9548b4;
     line-height: 126.187%; /* 26.314px */
     margin-left: 20px;
 }
 
-.business_title{
+.business-title{
     color: #37393F;
     font-size: 30px;
-    font-style: normal;
     font-weight: 600;
     line-height: 127%; /*38.1px */
 }
@@ -74,26 +73,19 @@ p{
 .business_sub-title{
     font-family: "Poppins";
     font-size: 20px;
-    font-style: normal;
     font-weight: 600;
     line-height: 127%;/* 25.4px */
     color: #6B77E5;
 }
 
-.project_title {
+.project-title {
     color: #37393F;
     font-size: 40px;
-    font-style: normal;
     font-weight: 700;
     line-height: 127%; /* 50.8px */
 }
 
-.project_text {
-    color: #7D7D7D;
-}
-
-.project_list {
-    color: #7D7D7D;
+.project-list {
     line-height: 146.187%; /* 26.314px */
     margin-left: 20px;
 }

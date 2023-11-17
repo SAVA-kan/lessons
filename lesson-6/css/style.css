@@ -1,0 +1,116 @@
+/* Підключенняя вручну */
+@import url("fonts.css");
+
+/* скидання стилів */
+@import url("reset.css");
+
+
+body{
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+.img{
+    max-width: 100%;
+    margin-bottom: 24px;
+}
+.business-content{
+    max-width: 712px;
+    margin: 0 auto;
+    line-height: 1.27;
+}
+.business{
+    padding: 30px 10px;
+}
+.business-title{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.business-text{
+    font-size: 18px;
+    line-height: 1.47;
+    margin-bottom: 40px;
+}
+.business-sub-title{
+    color: #6B77E5;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+.benefits{
+    margin-bottom: 50px;
+}
+.img-laptop{
+    width: 331px;
+    height: 262px;
+    margin-right: 29px;
+}
+.benefits-content{
+    display: inline-block;
+    width: 332px;
+}
+.benefits-title{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.benefits-pre-title{
+    color: #40DDB6;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 21px;
+}
+.item-list{
+margin-bottom: 30px;
+}
+.jewels-content {
+    font-family: "Inter", sans-serif;
+    max-width: 1169px;
+    margin: 0 auto;
+    padding: 30px 10px;
+}
+
+.custom-jewels {
+    display: inline-block;
+    width: 563px;
+    margin-right: 38px;
+}
+
+.jewels-title {
+    color: #D06B00;
+    font-size: 28px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.jewels-pre-title {
+    color: #0E333D;
+    font-family: DM Serif Text;
+    font-size: 59px;
+    line-height: 1.46;
+    margin-bottom: 25px;
+}
+
+.jewels-text {
+    color: #474747;
+    font-size: 20px;
+    line-height: 1.80;
+}
+
+.img-woman {
+    width: 273px;
+    height: 518px;
+    margin-right: 22px;
+}
+
+.img-jewels {
+    width: 273px;
+    height: 518px;
+}

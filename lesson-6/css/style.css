@@ -18,9 +18,11 @@ body{
     max-width: 712px;
     margin: 0 auto;
     line-height: 1.27;
+    margin-bottom: 50px;
+    padding: 30px 10px;
 }
 .business{
-    padding: 30px 10px;
+    margin-bottom: 30px;
 }
 .business-title{
     color: #37393F;
@@ -41,7 +43,6 @@ body{
     margin-bottom: 12px;
 }
 .benefits{
-    margin-bottom: 50px;
     font-size: 0;
 }
 .img-laptop{
@@ -78,20 +79,21 @@ margin-bottom: 35px;
     margin: 0 auto;
     font-size: 0;
     background-color: #fff9f4;
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .custom-jewels {
     display: inline-block;
     width: 563px;
     margin-right: 38px;
+
 }
 
 .jewels-title {
     color: #D06B00;
     font-size: 28px;
-    margin-top: 21px;
-   margin-bottom: 13px;
+   padding-top: 21px;
+   padding-bottom: 13px;
 }
 
 .jewels-pre-title {

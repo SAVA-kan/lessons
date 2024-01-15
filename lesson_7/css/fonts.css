@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=DM+Serif+Text:regular,italic");
+@import url("https://fonts.googleapis.com/css?family=Cormorant+Infant:300,regular,600,700,");
+@import url();
+
+/* Підключення вручну */
+
+@font-face{
+    font-family: 'Causten';
+    src: url('../fonts/Causten-Regular.woff') format('woff');
+    src: url('../fonts/Causten-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Causten';
+    src: url('../fonts/Causten-Bold.woff') format('woff');
+    src: url('../fonts/Causten-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Core Sans C';
+    src: url('../fonts/CoreSansC-65Bold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: swap;
+    font-style: normal;
+}
+
+

@@ -1,0 +1,386 @@
+/* Підключенняя вручну */
+@import url('fonts.css');
+
+/* скидання стилів */
+@import url('reset.css');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    color: #7D7D7D;
+    font-size: 18px;
+}
+
+.header{
+    max-width: 1218px;
+    margin: 0 auto;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: #d44;
+}
+
+/* Licencing block */
+
+.licencing-container{
+    max-width: 1218px;
+    margin: 0 auto;
+    font-size: 18px;
+    color: #7D7D7D;
+    padding: 30px 15px;
+}
+
+.information {
+    color: #37393F;
+    font-style: normal;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.square{
+    background-color: #40DDB6;
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-right: 6px;
+}
+
+.title {
+    color: #37393F;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.21;
+    margin-bottom: 70px;
+    }
+
+.icons-title {
+    margin-bottom: 100px;
+}
+
+.pre-title {
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.21;
+    padding-bottom: 11px;
+}
+
+.text {
+    font-style: normal;
+    line-height: 1.46;
+}
+.text-icons{
+  padding-bottom: 32px;  
+}
+span, .span {
+    color: #40DDB6
+}
+
+h3{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.pexels-title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+.unsplash-title{
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.fonts-title {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+   /* Project Information block */
+
+.project-info{
+    margin-bottom: 150px;
+}
+
+.project-container{
+    max-width: 830px;
+    margin: 0 auto;
+}
+.projecr-title{
+    color: #37393F;
+    font-family: Poppins;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1.27;
+    margin-bottom: 13px;
+}
+
+p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.46;
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.project-list{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.46;
+    margin-bottom: 35px;
+    padding-left: 30px;
+}
+
+li:not(:last-child){
+    margin-bottom: 28px;
+    
+}
+
+.project-list_item{
+    list-style: disc;
+}
+
+.list-number{
+    padding-left: 20px;
+}
+
+/* Develop Create Custom Jewels block */
+
+.jewels{
+    font-family: "Cormorant Infant", serif;
+    font-weight: 700;
+    padding-bottom: 150px;
+
+}
+
+.jewels-container {
+    max-width: 1135px;
+    margin: 0 auto;
+}
+
+.jewels-info,
+.jewels-imgage {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 0;
+}
+
+.jewels__pre-title {
+    color: #D58417;
+    font-size: 20px;
+    line-height: 1;
+    text-transform: capitalize;
+    margin-bottom: 27px;
+}
+
+.jewels-title {
+    color: #000;
+    font-size: 64px;
+    line-height: 1;
+}
+.jewels-title:not(:last-child){
+    margin-bottom: 31px;
+}
+
+.jewels-text {
+    color: #606060;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.40;
+    max-width: 489px;
+}
+
+.jewels-info{
+    max-width: 503px;
+    padding: 70px 0;
+    margin-right: 75px;
+}
+
+.jewels__imgage-first,
+.jewels__imgage-second {
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 235px;
+    border: 1px solid #502203;
+}
+
+.jewels__imgage-first:not(:last-child){
+    margin-right: 30px;
+}
+
+.jewels__imgage-first{
+width: 177px;
+height: 336px;
+}
+
+.jewels__imgage-second{
+width: 307px;
+height: 500px;
+}
+
+.jewels__imgage-first img {
+    margin-left: -10px;
+    padding-top: 14px;
+}
+
+.jewels__imgage-second img{
+    margin-left: -10px;
+    padding-top: 14px;
+}
+
+/*Clothing for Women Online in India block  */
+
+.clothing-block{
+    font-family: "Causten", sans-serif;
+    max-width: 1270px;
+    margin: 0 auto;
+    color: #807D7E;
+}
+
+.clothing-container{
+    padding: 0 15px;
+    font-size: 0;
+}
+
+.clothing-vertikal-line{
+    display: inline-block;
+    border-radius: 10px;
+    background: #8A33FD;
+    width: 6px;
+    height: 26px;
+    margin-right: 15px;
+}
+
+.clothing-title{
+    max-width: 573px;
+    margin-bottom: 30px;
+}
+
+.clothing-title h2{
+display: inline-block;
+color: #3C4242;
+font-family: 'Core Sans C', sans-serif;
+font-size: 28px;
+font-weight: 600;
+line-height: 1.2;
+letter-spacing: 0.6px;
+text-transform: capitalize;
+vertical-align: top;
+}
+
+.clothing-content h3{
+    font-family: 'Core Sans C', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.67;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: Causten, sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    letter-spacing: 0.4px;
+    margin-bottom: 25px;
+}
+
+span{
+    color: #807D7E;
+    font-family: Causten, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.7;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;
+}
+
+.clothing-link{
+    max-width: 160px;
+}
+
+.clothing-link a{
+    color: #807D7E;
+    font-family: 'Core Sans C', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.7;
+    text-transform: capitalize;
+    letter-spacing: 0.4px;    
+    padding-bottom: 150px;
+}
+
+/* Practis */
+.practis{
+    max-width: 1240px;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+
+.block-1 {
+    border: 2px dotted green;
+    box-shadow: inset 7px 7px 5.6px rgb(255, 0, 0);
+}
+
+.block-2 {
+    border: 3px solid red;
+}
+
+.block-3 {
+    border: 10px double blue;
+    border-radius: 10px;
+}
+
+.block-4 {
+    border: 15px dashed black;
+    outline: 5px solid red;
+}
+
+.block-5 {
+    border-top: 15px dashed black;
+    border-right: 10px solid blue;
+    border-bottom: 5px double red;
+    border-left: 3px dotted green;
+}
+
+.block-circle {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: #794f45;
+}
+
+.block-1, .block-2, 
+.block-3, .block-4,
+.block-5, .block-circle {
+    margin-top: 20px;
+}
+
+/* приклад запису тіні всередину об'єкту*/
+/* .block-1{
+	box-shadow: inset 7px 7px -5.6px rgba(239, 4, 4, 0. 115);
+} */
+
+/* приклад запису тіні
+.block-2{
+	box-shadow: 7px 7px -5.6px rgba(0, 0, 0, 0.115);
+}
+
+/*приклад запису мультитіні*/
+/* .block-3{
+	box-shadow:
+	  7px 7px -5.6px rgba(0, 0, 0, 0.115), 56px 56px 51px rgba(0, 0, 0, 0.11);
+} */
